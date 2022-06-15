@@ -1,0 +1,9 @@
+import mvc.demo.Person
+
+model {
+    Person person
+}
+json {
+    name person.name
+    age person.age
+}

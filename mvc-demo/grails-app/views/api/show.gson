@@ -1,0 +1,6 @@
+import mvc.demo.Person
+
+model {
+    Person person
+}
+json g.render(template:"person", model:[person:person])

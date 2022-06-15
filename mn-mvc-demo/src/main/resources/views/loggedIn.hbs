@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logged In</title>
+</head>
+<body>
+<h1>Secure Page</h1>
+{{#if loggedIn}}
+    <h2>username: <span>{{username}}</span></h2>
+    <h2>ID: <span>{{id}}</span></h2>
+{{else}}
+    <h2>You are not logged in</h2>
+{{/if}}
+</body>
+</html>
